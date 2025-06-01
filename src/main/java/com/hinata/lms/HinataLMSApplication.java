@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LmsApplication {
+public class HinataLMSApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LmsApplication.class, args);
+		SpringApplication.run(HinataLMSApplication.class, args);
 	}
 
 }
