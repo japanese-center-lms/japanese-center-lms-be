@@ -36,6 +36,7 @@ import org.springframework.context.annotation.Configuration;
                 )
         }
 )
+
 @SecurityScheme(
         name = "Bearer Authentication",
         description = "JWT auth description",
