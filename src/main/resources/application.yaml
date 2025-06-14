@@ -15,8 +15,8 @@ springdoc:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/japaneseLms
-    username: ${DB_USER}
-    password: ${DB_PASS}
+    username: postgres
+    password: 12345
     driver-class-name: org.postgresql.Driver
 
   jpa:
