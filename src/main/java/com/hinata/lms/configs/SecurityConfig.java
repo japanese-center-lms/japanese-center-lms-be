@@ -34,8 +34,13 @@ import static org.springframework.http.HttpMethod.PUT;
 public class SecurityConfig {
     private static final String[] WHITE_LIST_URL = {
             "/api/v1/auth/**",
+            "/api/v1/auth/authenticate",
             "/v3/api-docs/**",
-            "/swagger-ui/**"
+            "/swagger-ui/**",
+            "/swagger-ui.html",
+            "/openapi/**",
+            "/docs",
+            "/docs/**"
     };
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
     private final AuthenticationProvider authenticationProvider;
