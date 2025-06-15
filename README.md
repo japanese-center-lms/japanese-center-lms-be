@@ -55,7 +55,7 @@ This module provides a secure authentication system for the LMS project using Sp
 ## Quick Start
 
 1. **Clone the repository**
-2. **Run the PostgreSQL and insert new User.
+2. **Run the PostgreSQL and insert new User.**
 4. **Build and Run**
     ```bash
     ./mvnw clean install
